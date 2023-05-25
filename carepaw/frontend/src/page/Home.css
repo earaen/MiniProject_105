@@ -1,0 +1,12 @@
+.content {
+  margin-left: 80px;
+}
+.Break {
+  margin: 0;
+  background-color: #9199af;
+  border-radius: 10px;
+  width: 100%;
+  border: 1.5px solid #b2b9cc;
+  margin-bottom: 10px;
+  margin-top: 4rem;
+}

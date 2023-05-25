@@ -1,0 +1,153 @@
+.card {
+  background-color: #d4e4eb;
+  box-shadow: 0px 0px 10.5674px rgba(0, 0, 0, 0.1);
+  border-radius: 42.2695px;
+  width: 247px;
+  height: 340.33px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 261.48px;
+  background: #ffffff;
+  border-radius: 42.2695px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #001858;
+  position: absolute;
+  top: 50px; /* half of the circle's height */
+  left: calc(50% - 40px); /* half of the circle's width */
+  z-index: 1;
+  transform: none; /* reset transform */
+}
+.paw {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px; /* set the font-size to 50% of the circle's width */
+}
+.text h5 {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #001858;
+}
+.text h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.text p {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #001858;
+}
+span {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #001858;
+}
+.text p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.frameedit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 7px;
+  border: 2px solid #001858;
+  border-radius: 25.36px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #001858;
+  font: 700 10px "Roboto";
+  line-height: 16px;
+}
+
+.frameedit:hover {
+  background-color: #bbb;
+  color: #001858;
+}
+
+.Pencil {
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.framedelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 7px;
+  border: 2px solid #001858;
+  border-radius: 25.36px;
+  cursor: pointer;
+  background-color: #ff9292;
+  color: #001858;
+  font: 700 10px "Roboto";
+  line-height: 16px;
+}
+
+.framedelete:hover {
+  background-color: #fd5b5b;
+  color: #001858;
+}
+
+.Delete {
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.PetButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 5rem;
+}
+.View {
+  padding: 1px 15px;
+  border: 2px solid #001858;
+  border-radius: 40px;
+  color: #001858;
+  font-weight: 700;
+  font-size: 12apx;
+  line-height: 26px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+.View:hover {
+  background-color: #001858;
+  color: white;
+}

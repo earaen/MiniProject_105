@@ -1,0 +1,37 @@
+.Topic-0 {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem; /* 36px / 16px = 2.25rem */
+  line-height: 3.625rem; /* 58px / 16px = 3.625rem */
+  color: #001858;
+}
+
+.Topic-1 {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem; /* 32px / 16px = 2rem */
+  color: #001858;
+}
+
+.Topic-3 {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem; /* 16px / 16px = 1rem */
+  line-height: 1.625rem; /* 26px / 16px = 1.625rem */
+  color: #001858;
+}
+
+.Topic {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #001858;
+}
+.Lk {
+  border: 2px solid #e8e9eb;
+}

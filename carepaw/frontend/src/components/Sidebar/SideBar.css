@@ -1,0 +1,125 @@
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+    top: 0px;
+    left: 0px; /* Add this to stick the sidebar to the left */
+    background-color: #ead9e6;
+    z-index: 10;
+  }
+
+  .sidebar-icon {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .sidebar-icon:hover {
+    background-color: #fffdf9;
+  }
+  .sidebar-icon::selection {
+    color: #001858;
+  }
+
+  .sidebar-icon svg {
+    color: #66749a;
+    font-size: 20px;
+  }
+
+  .logo {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    height: 50%;
+  }
+  .selected {
+    background-color: #fffdf9;
+    border-left: 10px solid #ffe768;
+    width: 70px;
+  }
+  .selected svg {
+    color: #001858;
+  }
+
+  .profile-icon {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-icon svg {
+    color: #66749a;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 2rem;
+  }
+
+  /* .selected::before {
+    height: 100%;
+    width: 9px;
+    left: 0px;
+    content: "";
+    position: absolute;
+    background-color: #ffe768;
+    height: 100%;
+  } */
+  .select svg {
+    color: #001858;
+  }
+  .menu-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .sidebar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    background-color: #ead9e6;
+    display: flex;
+    z-index: 10;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 50%;
+  }
+
+  .menu-bar {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5rem;
+    color: #001858;
+  }
+}
