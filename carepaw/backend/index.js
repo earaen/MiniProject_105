@@ -45,6 +45,8 @@ app.post("/login", require("./endpoints/endpoint_login"));
 app.get("/mypet", require("./endpoints/endpoint_showpet"));
 app.post("/mypet", require("./endpoints/endpoint_createpet"));
 app.get("/mypet/:petId", require("./endpoints/endpoint_specificpet"));
+app.put("/mypet/:petId", require("./endpoints/endpoint_editpet"));
+app.delete("/mypet/:petId", require("./endpoints/endpoint_deletepet"));
 
 // // Signup endpoint
 // app.post("/signup", async (req, res) => {
