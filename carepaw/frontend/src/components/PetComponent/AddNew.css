@@ -35,15 +35,15 @@
   font-style: normal;
 }
 .CL:hover {
-    padding: 5px 16px;
-    background-color: #a1a1a1;
-    border: 2px solid #001858;
-    border-radius: 10px;
-    color: #001858;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    cursor: pointer;
-    font-family: Roboto;
-    font-style: normal;
-  }
+  padding: 5px 16px;
+  background-color: #a1a1a1;
+  border: 2px solid #001858;
+  border-radius: 10px;
+  color: #001858;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+}

@@ -179,25 +179,3 @@ const SECTION = {
   lineHeight: "26px",
   color: "#001858",
 };
-
-const SM = {
-  padding: "8px 16px",
-  background: "#66CC99",
-  border: "2px solid #001858",
-  borderRadius: "10px",
-  backgroundColor: "#66CC99",
-  color: "#001858",
-  fontWeight: "700",
-  fontSize: "16px",
-  lineHeight: "26px",
-  cursor: "pointer",
-  fontFamily: "Roboto",
-  fontStyle: "normal",
-  fontWeight: "700",
-  fontSize: "16px",
-  lineHeight: "19px",
-  transition: "background-color 0.3s ease",
-  ":hover": {
-    backgroundColor: "#4DAF7C",
-  },
-};
