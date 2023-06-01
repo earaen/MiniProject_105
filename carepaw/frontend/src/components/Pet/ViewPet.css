@@ -19,7 +19,7 @@
   font-family: "Hind";
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem; /* 16px / 16px = 1rem */
+  font-size: 1.23rem; /* 16px / 16px = 1rem */
   line-height: 1.625rem; /* 26px / 16px = 1.625rem */
   color: #001858;
 }
@@ -34,7 +34,13 @@
 }
 .Lk {
   border: 2px solid #e8e9eb;
+  width: 400%;
 }
+.Lk {
+  width: 400px;
+  border: 2px solid #e8e9eb;
+}
+
 /* ViewPet.css */
 
 .overlay {

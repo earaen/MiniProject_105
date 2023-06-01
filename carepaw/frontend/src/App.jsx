@@ -34,7 +34,10 @@ function App() {
     <Router>
       {isLoggedIn && <SideBar className="sidesidebar" />}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={isLoggedIn ? <Home /> : <Navigate to="/login" replace />}
+        />
         <Route
           path="/mypet"
           element={isLoggedIn ? <MyPet /> : <Navigate to="/login" replace />}

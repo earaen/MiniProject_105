@@ -47,3 +47,53 @@
   font-family: Roboto;
   font-style: normal;
 }
+
+.DL {
+  padding: 5px 16px;
+  background: #ff8977;
+  border: 2px solid #001858;
+  border-radius: 10px;
+  color: #001858;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+.DL:hover {
+  padding: 5px 16px;
+  background:  #ff5f46;
+  border: 2px solid #001858;
+  border-radius: 10px;
+  color: #001858;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+.ED {
+  padding: 5px 16px;
+  background: #93b5ff;
+  border: 2px solid #001858;
+  border-radius: 10px;
+  color: #001858;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+.ED:hover {
+  padding: 5px 16px;
+  background:  #6293ff;
+  border: 2px solid #001858;
+  border-radius: 10px;
+  color: #001858;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+

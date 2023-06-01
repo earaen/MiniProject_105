@@ -8,7 +8,7 @@ function AddNew() {
   const [name, setName] = useState("");
   const [breed, setBreed] = useState("");
   const [age, setAge] = useState("");
-  const [gender, setGender] = useState("male");
+  const [gender, setGender] = useState("");
   const [weight, setWeight] = useState("");
   const [medical, setMedical] = useState("");
   const handleFormSubmit = (event) => {
@@ -107,7 +107,7 @@ function AddNew() {
 
             <label style={SECTION}>
               Gender:
-              <select
+              <input
                 name="gender"
                 value={gender}
                 onChange={(e) => setGender(e.target.value)}
@@ -117,25 +117,24 @@ function AddNew() {
                   borderRadius: "4px",
                   border: "1px solid #ccc",
                 }}
-              >
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-              </select>
+              />
             </label>
 
-            <label style={SECTION}>Weight:</label>
-            <input
-              type="text"
-              name="weight"
-              value={weight}
-              onChange={(e) => setWeight(e.target.value)}
-              style={{
-                width: "100%",
-                padding: "8px",
-                borderRadius: "4px",
-                border: "1px solid #ccc",
-              }}
-            />
+            <label style={SECTION}>
+              Weight:
+              <input
+                type="text"
+                name="weight"
+                value={weight}
+                onChange={(e) => setWeight(e.target.value)}
+                style={{
+                  width: "100%",
+                  padding: "8px",
+                  borderRadius: "4px",
+                  border: "1px solid #ccc",
+                }}
+              />
+            </label>
             <label style={SECTION}>
               Medical History:
               <input

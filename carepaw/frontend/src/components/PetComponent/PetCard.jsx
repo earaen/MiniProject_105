@@ -14,18 +14,30 @@ function PetCard({ id, name, breed, age, gender, weight }) {
         <div className="content">
           <div className="text">
             <p>{name}</p>
-            <h5>
-              Breed <span className="Breed">{breed}</span>
-            </h5>
-            <h5>
-              Age <span className="Age">{age}</span>
-            </h5>
-            <h5>
-              Gender <span className="Gender">{gender}</span>
-            </h5>
-            <h5>
-              Weight <span className="Weight">{weight}</span>
-            </h5>
+            <div>
+              <span className="header" style={{ paddingRight: "40px" }}>
+                Breed:
+              </span>
+              <span>{breed}</span>
+            </div>
+            <div>
+              <span className="header" style={{ paddingRight: "52px" }}>
+                Age:
+              </span>
+              <span className="age">{age}</span>
+            </div>
+            <div>
+              <span className="header" style={{ paddingRight: "29px" }}>
+                Gender:
+              </span>
+              <span className="gender">{gender}</span>
+            </div>
+            <div>
+              <span className="header" style={{ paddingRight: "29px" }}>
+                Weight:
+              </span>
+              <span className="Weight">{weight}</span>
+            </div>
           </div>
           <div className="PetButton">
             <Link to={`/mypet/${id}?`}>

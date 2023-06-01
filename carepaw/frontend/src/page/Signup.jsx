@@ -36,7 +36,7 @@ export default function Signup() {
         // Redirect the user to the dashboard or another page
         // You can use the appropriate method for your frontend framework or library
         // For example, using react-router-dom:
-        navigate("/login");
+        navigate("/");
       })
       .catch((error) => {
         setError(error.response.data.error);

@@ -1,24 +1,15 @@
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  margin-left: 170px;
+  height: 100vh;
 }
 .frame {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 300px;
   border: 2px solid #b0b0b0;
   border-radius: 40px;
   background-color: white;
-}
-
-@media screen and (max-width: 1023px) {
-  .container {
-    margin-top: 80px;
-    margin-left: 80px;
-  }
 }
 
 .MYPROFILE {
@@ -90,7 +81,22 @@ hr {
 }
 .logout {
   /* box */
-  margin-right: 14rem;
+  color: #001858;
+  background: #ff8484;
+  border: 1.63158px solid #001858;
+  border-radius: 8.15789px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
+}
+.logout:hover {
+  /* box */
+  color: #001858;
   background: #f33b3b;
   border: 1.63158px solid #001858;
   border-radius: 8.15789px;
@@ -105,7 +111,24 @@ hr {
 }
 
 .update {
-  color: #ffffff;
+  color: #001858;
+  margin-right: 8rem;
+
+  background: #45a2ff;
+  border-radius: 10.1px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
+}
+.update:hover {
+  color: #001858;
+  margin-right: 8rem;
+
   background: #0080ff;
   border-radius: 10.1px;
   padding: 8px 16px; /* add spacing inside the button */
@@ -126,4 +149,108 @@ hr {
     margin-top: 80px;
     margin-left: 10px;
   }
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-buttons .cancel {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+}
+
+.modal-buttons .confirm {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+}
+
+.UD {
+  color: #001858;
+
+  background: #45a2ff;
+  border-radius: 10.1px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
+}
+.UD:hover {
+  color: #001858;
+  background: #0080ff;
+  border-radius: 10.1px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
+}
+
+.CLL {
+  color: #001858;
+
+  background: #cfcfcf;
+  border-radius: 10.1px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
+}
+.CLL:hover {
+  color: #001858;
+  background: #828282;
+  border-radius: 10.1px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
 }

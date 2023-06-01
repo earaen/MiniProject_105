@@ -41,7 +41,7 @@
   transform: translate(-50%, -50%);
   font-size: 40px; /* set the font-size to 50% of the circle's width */
 }
-.text h5 {
+.header {
   font-family: "Hind";
   font-style: normal;
   font-weight: 700;
