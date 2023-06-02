@@ -176,3 +176,33 @@ Example:
   "password": "Password123"
 }
 ```
+
+#### Response
+
+Success
+
+- Status Code: 200
+- Content Type: JSON
+
+The response
+| Parameter | Type | Description |
+| --------- | ------ | ------------------------ |
+| token | string | The generated JWT token for authentication |
+| userId | string | The user ID associated with the logged-in user |
+| user | object | The user object containing user information |
+| message | string | A success message indicating login successful|
+
+Example:
+
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...",
+  "userId": "1",
+  "user": {
+    "id": "1",
+    "username": "exampleuser",
+    "email": "example@example.com"
+  },
+  "message": "Login successful"
+}
+```
