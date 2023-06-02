@@ -149,7 +149,7 @@ The response
 
 Example:
 
-```
+```json
 {
  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...",
  "message": "Login successful"
