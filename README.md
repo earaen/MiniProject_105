@@ -41,7 +41,23 @@ cd carepaw/frontend
 ```
 npm install
 ```
-3. Start the frontend development server: 
+3. Start the frontend: 
+```
+npm run dev
+```
+## Running the Backend
+
+To run the backend of the CarePaw website, follow these steps:
+
+1. Navigate to the backend directory of the CarePaw project:
+```
+cd carepaw/backend
+```
+2. Install the required dependencies:
+```
+npm install
+```
+3. Start the backend:
 ```
 npm run dev
 ```
