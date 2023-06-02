@@ -59,6 +59,12 @@ The CarePaw project utilizes the following technologies:
 | Node.js    | JavaScript runtime environment for server-side development. |
 | Express.js | Web application framework for Node.js.                      |
 
+#### Database
+
+| Technology | Description                                                    |
+| ---------- | -------------------------------------------------------------- |
+| MariaDB    | Open-source relational database for storing and managing data. |
+
 ## Running the Frontend
 
 To run the frontend of the CarePaw website, follow these steps:
