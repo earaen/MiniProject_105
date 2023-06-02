@@ -145,8 +145,7 @@ The response
 | Parameter | Type | Description |
 | --------- | ------ | ------------------------ |
 | token | string | The JWT token for the authenticated user |
-| message | string | A success message indicating the signup was successful
-|
+| message | string | A success message indicating the signup was successful|
 
 Example:
 
