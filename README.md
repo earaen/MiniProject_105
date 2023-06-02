@@ -267,19 +267,22 @@ Example:
   "username": "newusername",
   "email": "newemail@example.com"
 }
+```
 
 #### Response
+
 Success
+
 - Status Code: 200
 - Content Type: JSON
 
-| Property  | Type   | Description              |
-| --------- | ------ | ------------------------ |
-| id  | string | The user's ID    |
-| username  | string | The updated username     |
-| email     | string | The updated email address|
+| Property | Type   | Description               |
+| -------- | ------ | ------------------------- |
+| id       | string | The user's ID             |
+| username | string | The updated username      |
+| email    | string | The updated email address |
 
-``` JSON
+```JSON
 {
   "id": "1",
   "username": "newusername",
