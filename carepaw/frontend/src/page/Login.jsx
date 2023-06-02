@@ -139,9 +139,6 @@ export default function Login({ setIsLoggedIn }) {
               )}
 
               <Box sx={{ textAlign: "center" }}>
-                <Link href="#" variant="body2">
-                  Forgot password?
-                </Link>
                 <Typography
                   sx={{
                     fontFamily: "Hind",
