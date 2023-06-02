@@ -2,15 +2,6 @@
 
 Welcome to CarePaw, the ultimate platform for collecting and managing your pet cards and learning essential tips for responsible pet ownership. This readme file will guide you through the setup and usage of the CarePaw website.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 CarePaw is a website designed to help pet owners keep track of their pets' information through pet cards. Each pet card contains details such as the pet's name, age, breed, gender, and medical history. In addition to the pet card feature, the website also provides essential tips for responsible pet ownership on the homepage.
@@ -37,3 +28,11 @@ CarePaw is a website designed to help pet owners keep track of their pets' infor
 4. Profile Management:
    - Users can update their profile information, including their name, email.
    - The profile section provides options to edit and save changes.
+
+## Running the Frontend
+
+To run the frontend of the CarePaw website, follow these steps:
+
+1. Navigate to the frontend directory of the CarePaw project: cd carepaw/frontend
+2. Install the required dependencies: npm install
+3. Start the frontend development server: npm run dev
