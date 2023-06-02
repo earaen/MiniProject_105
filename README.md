@@ -210,8 +210,6 @@ Example:
 
 ### User Endpoint
 
-The User endpoint is used to retrieve information about a specific user based on their user ID.
-
 - Method: GET
 - URL: `/user/:userId`
 
