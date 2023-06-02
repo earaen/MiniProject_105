@@ -254,8 +254,6 @@ The path parameter `userId` represents the unique identifier of the user.
 
 #### Request Body
 
-The request should include a JSON object with the following properties:
-
 | Property  | Type   | Description              |
 | --------- | ------ | ------------------------ |
 | username  | string | The updated username     |
