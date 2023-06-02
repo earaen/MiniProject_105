@@ -117,11 +117,11 @@ URL: POST /signup
 
 #### Request Body
 
-| Parameter | Type   | Description                                 |
-| --------- | ------ | ------------------------------------------- |
-| username  | string | The user's username                         |
-| email     | string | The user's email address                    |
-| password  | string | The user's password  |
+| Parameter | Type   | Description              |
+| --------- | ------ | ------------------------ |
+| username  | string | The user's username      |
+| email     | string | The user's email address |
+| password  | string | The user's password      |
 
 Example:
 
@@ -132,3 +132,16 @@ Example:
   "password": "Password123"
 }
 ```
+
+#### Response
+
+Success
+Status Code: 200
+Content Type: JSON
+
+If the signup is successful, the response will contain a JSON object with the following properties:
+| Parameter | Type | Description |
+| --------- | ------ | ------------------------ |
+| token | string | The JWT token for the authenticated user |
+| message | string | A success message indicating the signup was successful
+ |
