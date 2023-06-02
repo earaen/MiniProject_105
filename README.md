@@ -294,8 +294,6 @@ Example:
 
 ### Show Pets Endpoint
 
-The Show Pets endpoint is used to retrieve all pets associated with a specific user.
-
 - Method: GET
 - URL: `/mypet`
 
@@ -338,5 +336,49 @@ Example:
       "userId": "1"
     }
   ]
+}
+```
+
+### Create Pet Endpoint
+
+- Method: POST
+- URL: `/mypet`
+
+#### Request Body
+
+The request body should contain the following parameters:
+
+| Parameter | Type   | Description                       |
+| --------- | ------ | --------------------------------- |
+| userId    | string | The unique identifier of the user |
+| name      | string | The name of the pet               |
+| breed     | string | The breed of the pet              |
+| age       | number | The age of the pet in years       |
+| gender    | string | The gender of the pet             |
+| weight    | number | The weight of the pet             |
+| medical   | string | The medical history of the pet    |
+
+Example:
+
+```json
+{
+  "userId": "1",
+  "name": "Fluffy",
+  "breed": "Cat",
+  "age": 3,
+  "gender": "Female",
+  "weight": 5.7,
+  "medical": "No known medical conditions"
+}
+```
+#### Response
+success
+- Status Code: 200
+- Content Type: JSON
+
+example:
+```json
+{
+  "message": "Pet added successfully"
 }
 ```
