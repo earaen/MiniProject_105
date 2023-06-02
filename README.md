@@ -4,11 +4,23 @@ Welcome to CarePaw, the ultimate platform for collecting and managing your pet c
 
 ## Table of Contents
 
+## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Running the Frontend](#running-the-frontend)
 - [Running the Backend](#running-the-backend)
+- [API Endpoints](#api-endpoints)
+  - [Signup](#signup)
+  - [Login](#login-endpoint)
+  - [User](#user-endpoint)
+  - [Edit User](#edit-user-endpoint)
+  - [Show Pets](#show-pets-endpoint)
+  - [Get Specific Pet](#get-specific-pet-endpoint)
+  - [Create Pet](#create-pet-endpoint)
+  - [Update Pet](#update-pet-endpoint)
+  - [Delete Pet](#delete-pet-endpoint)
 
 ## Introduction
 
