@@ -338,6 +338,7 @@ Example:
   ]
 }
 ```
+
 ### Get Specific Pet Endpoint
 
 The Get Specific Pet endpoint is used to retrieve information about a specific pet for a logged-in user.
@@ -430,3 +431,44 @@ example:
 }
 ```
 
+### Update Pet Endpoint
+
+The Update Pet endpoint is used to update information about a pet for a logged-in user.
+
+- Method: PUT
+- URL: `/mypet/:petId`
+
+#### Path Parameters
+
+The endpoint expects the following path parameter:
+
+| Parameter | Type   | Description                      |
+| --------- | ------ | -------------------------------- |
+| petId     | string | The unique identifier of the pet |
+
+#### Request Body
+
+The request body should contain the following fields:
+
+| Field   | Type   | Description                       |
+| ------- | ------ | --------------------------------- |
+| userId  | string | The unique identifier of the user |
+| name    | string | The name of the pet               |
+| breed   | string | The breed of the pet              |
+| age     | number | The age of the pet                |
+| gender  | string | The gender of the pet             |
+| weight  | number | The weight of the pet             |
+| medical | string | Medical information of the pet    |
+
+#### Response
+
+- Status Code: 200
+- Content Type: JSON
+
+Example:
+
+```json
+{
+  "message": "Pet updated successfully"
+}
+```
