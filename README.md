@@ -338,6 +338,49 @@ Example:
   ]
 }
 ```
+### Get Specific Pet Endpoint
+
+The Get Specific Pet endpoint is used to retrieve information about a specific pet for a logged-in user.
+
+- Method: GET
+- URL: `/mypet/:petId`
+
+#### Path Parameters
+
+The endpoint expects the following path parameter:
+
+| Parameter | Type   | Description                      |
+| --------- | ------ | -------------------------------- |
+| petId     | string | The unique identifier of the pet |
+
+#### Query Parameters
+
+The endpoint expects the following query parameter:
+
+| Parameter | Type   | Description                       |
+| --------- | ------ | --------------------------------- |
+| userId    | string | The unique identifier of the user |
+
+#### Response
+
+Success
+
+- Status Code: 200
+- Content Type: JSON
+
+Example:
+
+```json
+{
+  "id": "1",
+  "name": "Fluffy",
+  "breed": "Cat",
+  "age": 3,
+  "gender": "Female",
+  "weight": 5.7,
+  "medical": "No known medical conditions"
+}
+```
 
 ### Create Pet Endpoint
 
@@ -387,46 +430,3 @@ example:
 }
 ```
 
-### Get Specific Pet Endpoint
-
-The Get Specific Pet endpoint is used to retrieve information about a specific pet for a logged-in user.
-
-- Method: GET
-- URL: `/mypet/:petId`
-
-#### Path Parameters
-
-The endpoint expects the following path parameter:
-
-| Parameter | Type   | Description                      |
-| --------- | ------ | -------------------------------- |
-| petId     | string | The unique identifier of the pet |
-
-#### Query Parameters
-
-The endpoint expects the following query parameter:
-
-| Parameter | Type   | Description                       |
-| --------- | ------ | --------------------------------- |
-| userId    | string | The unique identifier of the user |
-
-#### Response
-
-Success
-
-- Status Code: 200
-- Content Type: JSON
-
-Example:
-
-```json
-{
-  "id": "1",
-  "name": "Fluffy",
-  "breed": "Cat",
-  "age": 3,
-  "gender": "Female",
-  "weight": 5.7,
-  "medical": "No known medical conditions"
-}
-```
