@@ -29,6 +29,20 @@ CarePaw is a website designed to help pet owners keep track of their pets' infor
    - Users can update their profile information, including their name, email.
    - The profile section provides options to edit and save changes.
 
+## Technology Stack
+
+The CarePaw project utilizes the following technologies:
+
+- Frontend:
+  - HTML, CSS, JavaScript
+  - React.js: A JavaScript library for building user interfaces.
+  - Axios: A promise-based HTTP client for making API requests.
+  - React Router: A library for handling navigation within a React application.
+
+- Backend:
+  - Node.js: A JavaScript runtime environment.
+  - Express.js: A web application framework for Node.js.
+
 ## Running the Frontend
 
 To run the frontend of the CarePaw website, follow these steps:
