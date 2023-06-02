@@ -147,6 +147,7 @@ The response
 | token | string | The JWT token for the authenticated user |
 | message | string | A success message indicating the signup was successful
 |
+
 Example:
 
 ```
@@ -154,5 +155,4 @@ Example:
  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...",
  "message": "Login successful"
 }
-s
 ```
