@@ -282,6 +282,7 @@ Success
 | username | string | The updated username      |
 | email    | string | The updated email address |
 
+Example:
 ```json
 {
   "id": "1",
