@@ -33,45 +33,62 @@ CarePaw is a website designed to help pet owners keep track of their pets' infor
 
 The CarePaw project utilizes the following technologies:
 
-- Frontend:
-  - HTML, CSS, JavaScript
-  - React.js: A JavaScript library for building user interfaces.
-  - Axios: A promise-based HTTP client for making API requests.
-  - React Router: A library for handling navigation within a React application.
+### Frontend 
+| Technology   | Description                                                 |
+| ------------ | ----------------------------------------------------------- |
+| HTML         | Markup language for creating web pages.                     |
+| CSS          | Styling language for designing the website's appearance.    |
+| JavaScript   | Programming language for implementing interactive features. |
+| React.js     | JavaScript library for building user interfaces.            |
+| Axios        | Promise-based HTTP client for making API requests.          |
+| React Router | Library for handling navigation within a React application. |
 
-- Backend:
-  - Node.js: A JavaScript runtime environment.
-  - Express.js: A web application framework for Node.js.
+### Backend 
+| Technology   | Description                                                 |
+| ------------ | ----------------------------------------------------------- |
+| Node.js      | JavaScript runtime environment for server-side development. |
+| Express.js   | Web application framework for Node.js.                      |
 
 ## Running the Frontend
 
 To run the frontend of the CarePaw website, follow these steps:
 
-1. Navigate to the frontend directory of the CarePaw project: 
+1. Navigate to the frontend directory of the CarePaw project:
+
 ```
 cd carepaw/frontend
 ```
-2. Install the required dependencies: 
+
+2. Install the required dependencies:
+
 ```
 npm install
 ```
-3. Start the frontend: 
+
+3. Start the frontend:
+
 ```
 npm run dev
 ```
+
 ## Running the Backend
 
 To run the backend of the CarePaw website, follow these steps:
 
 1. Navigate to the backend directory of the CarePaw project:
+
 ```
 cd carepaw/backend
 ```
+
 2. Install the required dependencies:
+
 ```
 npm install
 ```
+
 3. Start the backend:
+
 ```
 npm run dev
 ```
