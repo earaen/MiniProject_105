@@ -2,6 +2,14 @@
 
 Welcome to CarePaw, the ultimate platform for collecting and managing your pet cards and learning essential tips for responsible pet ownership. This readme file will guide you through the setup and usage of the CarePaw website.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Running the Frontend](#running-the-frontend)
+- [Running the Backend](#running-the-backend)
+
 ## Introduction
 
 CarePaw is a website designed to help pet owners keep track of their pets' information through pet cards. Each pet card contains details such as the pet's name, age, breed, gender, and medical history. In addition to the pet card feature, the website also provides essential tips for responsible pet ownership on the homepage.
@@ -33,7 +41,8 @@ CarePaw is a website designed to help pet owners keep track of their pets' infor
 
 The CarePaw project utilizes the following technologies:
 
-#### Frontend 
+#### Frontend
+
 | Technology   | Description                                                 |
 | ------------ | ----------------------------------------------------------- |
 | HTML         | Markup language for creating web pages.                     |
@@ -43,11 +52,12 @@ The CarePaw project utilizes the following technologies:
 | Axios        | Promise-based HTTP client for making API requests.          |
 | React Router | Library for handling navigation within a React application. |
 
-#### Backend 
-| Technology   | Description                                                 |
-| ------------ | ----------------------------------------------------------- |
-| Node.js      | JavaScript runtime environment for server-side development. |
-| Express.js   | Web application framework for Node.js.                      |
+#### Backend
+
+| Technology | Description                                                 |
+| ---------- | ----------------------------------------------------------- |
+| Node.js    | JavaScript runtime environment for server-side development. |
+| Express.js | Web application framework for Node.js.                      |
 
 ## Running the Frontend
 
