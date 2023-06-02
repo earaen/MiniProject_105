@@ -151,7 +151,28 @@ Example:
 
 ```json
 {
- "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...",
- "message": "Login successful"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...",
+  "message": "Login successful"
+}
+```
+
+## Login Endpoint
+
+- Method: POST
+- URL: `/login`
+
+### Request Body
+
+| Parameter | Type   | Description              |
+| --------- | ------ | ------------------------ |
+| email     | string | The user's email address |
+| password  | string | The user's password      |
+
+Example:
+
+```json
+{
+  "email": "example@example.com",
+  "password": "Password123"
 }
 ```
