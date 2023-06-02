@@ -241,3 +241,30 @@ Example:
   "email": "example@example.com"
 }
 ```
+### Edit User Endpoint
+
+The Edit User endpoint is used to update the information of a specific user based on their user ID.
+
+- Method: PUT
+- URL: `/user/:userId`
+
+#### Path Parameters
+
+The path parameter `userId` represents the unique identifier of the user.
+
+#### Request Body
+
+The request should include a JSON object with the following properties:
+
+| Property  | Type   | Description              |
+| --------- | ------ | ------------------------ |
+| username  | string | The updated username     |
+| email     | string | The updated email address|
+
+Example:
+
+```json
+{
+  "username": "newusername",
+  "email": "newemail@example.com"
+}
