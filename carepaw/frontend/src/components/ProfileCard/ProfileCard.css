@@ -230,7 +230,7 @@ hr {
 .CLL {
   color: #001858;
 
-  background: #cfcfcf;
+  background: #f0f0f0;
   border-radius: 10.1px;
   padding: 8px 16px; /* add spacing inside the button */
   width: 90px; /* set the width of the button */
@@ -243,7 +243,35 @@ hr {
 }
 .CLL:hover {
   color: #001858;
-  background: #828282;
+  background: #a6a6a6;
+  border-radius: 10.1px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
+}
+.LG {
+  color: #001858;
+  margin-left: "1rem";
+  background: #ffa0a0;
+  border-radius: 10.1px;
+  padding: 8px 16px; /* add spacing inside the button */
+  width: 90px; /* set the width of the button */
+  /* text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.0526px;
+  line-height: 15px;
+}
+.LG:hover {
+  color: #001858;
+  background: #ff6060;
+  margin-left: "1rem";
   border-radius: 10.1px;
   padding: 8px 16px; /* add spacing inside the button */
   width: 90px; /* set the width of the button */
