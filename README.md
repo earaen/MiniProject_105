@@ -33,7 +33,7 @@ CarePaw is a website designed to help pet owners keep track of their pets' infor
 
 The CarePaw project utilizes the following technologies:
 
-### Frontend 
+#### Frontend 
 | Technology   | Description                                                 |
 | ------------ | ----------------------------------------------------------- |
 | HTML         | Markup language for creating web pages.                     |
@@ -43,7 +43,7 @@ The CarePaw project utilizes the following technologies:
 | Axios        | Promise-based HTTP client for making API requests.          |
 | React Router | Library for handling navigation within a React application. |
 
-### Backend 
+#### Backend 
 | Technology   | Description                                                 |
 | ------------ | ----------------------------------------------------------- |
 | Node.js      | JavaScript runtime environment for server-side development. |
