@@ -207,3 +207,39 @@ Example:
   "message": "Login successful"
 }
 ```
+
+### User Endpoint
+
+The User endpoint is used to retrieve information about a specific user based on their user ID.
+
+- Method: GET
+- URL: `/user/:userId`
+
+#### Path Parameters
+
+The path parameter `userId` represents the unique identifier of the user.
+
+#### Response
+
+Success
+
+- Status Code: 200
+- Content Type: JSON
+
+If the user is found, the response will contain a JSON object with the following properties:
+
+| Property | Type   | Description              |
+| -------- | ------ | ------------------------ |
+| id       | string | The user's ID            |
+| username | string | The user's username      |
+| email    | string | The user's email address |
+
+Example:
+
+```json
+{
+  "id": "1",
+  "username": "exampleuser",
+  "email": "example@example.com"
+}
+```

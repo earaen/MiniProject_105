@@ -41,14 +41,15 @@ app.use(bodyParser.json({ type: "application/json" }));
 app.get("/", require("./endpoints/test"));
 app.post("/signup", require("./endpoints/endpoint_signup"));
 app.post("/login", require("./endpoints/endpoint_login"));
+app.get("/user/:userId", require("./endpoints/endpoint_user"));
+app.put("/user/:userId", require("./endpoints/endpoint_edituser"));
 
 app.get("/mypet", require("./endpoints/endpoint_showpet"));
 app.post("/mypet", require("./endpoints/endpoint_createpet"));
 app.get("/mypet/:petId", require("./endpoints/endpoint_specificpet"));
 app.put("/mypet/:petId", require("./endpoints/endpoint_editpet"));
 app.delete("/mypet/:petId", require("./endpoints/endpoint_deletepet"));
-app.get("/user/:userId", require("./endpoints/endpoint_user"));
-app.put("/user/:userId", require("./endpoints/endpoint_edituser"));
+
 // // Signup endpoint
 // app.post("/signup", async (req, res) => {
 //   const { username, email, password } = req.body;
