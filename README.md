@@ -241,6 +241,7 @@ Example:
   "email": "example@example.com"
 }
 ```
+
 ### Edit User Endpoint
 
 The Edit User endpoint is used to update the information of a specific user based on their user ID.
@@ -254,10 +255,10 @@ The path parameter `userId` represents the unique identifier of the user.
 
 #### Request Body
 
-| Property  | Type   | Description              |
-| --------- | ------ | ------------------------ |
-| username  | string | The updated username     |
-| email     | string | The updated email address|
+| Property | Type   | Description               |
+| -------- | ------ | ------------------------- |
+| username | string | The updated username      |
+| email    | string | The updated email address |
 
 Example:
 
@@ -266,3 +267,22 @@ Example:
   "username": "newusername",
   "email": "newemail@example.com"
 }
+
+#### Response
+Success
+- Status Code: 200
+- Content Type: JSON
+
+| Property  | Type   | Description              |
+| --------- | ------ | ------------------------ |
+| id  | string | The user's ID    |
+| username  | string | The updated username     |
+| email     | string | The updated email address|
+
+``` JSON
+{
+  "id": "1",
+  "username": "newusername",
+  "email": "newemail@example.com"
+}
+```
