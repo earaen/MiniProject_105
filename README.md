@@ -156,7 +156,7 @@ Example:
 }
 ```
 
-### Login Endpoint
+- ### Login Endpoint
 
 - Method: POST
 - URL: `/login`
