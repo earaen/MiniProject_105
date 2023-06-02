@@ -156,12 +156,12 @@ Example:
 }
 ```
 
-## Login Endpoint
+### Login Endpoint
 
 - Method: POST
 - URL: `/login`
 
-### Request Body
+#### Request Body
 
 | Parameter | Type   | Description              |
 | --------- | ------ | ------------------------ |
