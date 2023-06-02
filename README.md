@@ -201,7 +201,8 @@ Example:
   "user": {
     "id": "1",
     "username": "exampleuser",
-    "email": "example@example.com"
+    "email": "example@example.com",
+    "password": "$2b$10$dN5MgrHbH1St9mlOIK/dmew7Pi1u3LVDnX1sOOAWSgXpIoVTOFhU."
   },
   "message": "Login successful"
 }
