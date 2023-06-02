@@ -121,7 +121,7 @@ URL: POST /signup
 | --------- | ------ | ------------------------------------------- |
 | username  | string | The user's username                         |
 | email     | string | The user's email address                    |
-| password  | string | The user's password (at least 8 characters) |
+| password  | string | The user's password  |
 
 Example:
 
