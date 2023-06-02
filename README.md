@@ -108,3 +108,27 @@ npm install
 ```
 npm run dev
 ```
+
+## API endpoints
+
+### Signup
+
+URL: POST /signup
+
+#### Request Body
+
+| Parameter | Type   | Description                                 |
+| --------- | ------ | ------------------------------------------- |
+| username  | string | The user's username                         |
+| email     | string | The user's email address                    |
+| password  | string | The user's password (at least 8 characters) |
+
+Example:
+
+```json
+{
+  "username": "exampleuser",
+  "email": "example@example.com",
+  "password": "Password123"
+}
+```
