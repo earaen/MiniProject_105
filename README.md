@@ -283,10 +283,60 @@ Success
 | email    | string | The updated email address |
 
 Example:
+
 ```json
 {
   "id": "1",
   "username": "newusername",
   "email": "newemail@example.com"
+}
+```
+
+### Show Pets Endpoint
+
+The Show Pets endpoint is used to retrieve all pets associated with a specific user.
+
+- Method: GET
+- URL: `/mypet`
+
+#### Query Parameters
+
+The query parameter `userId` represents the unique identifier of the user.
+
+#### Response
+
+Success
+
+- Status Code: 200
+- Content Type: JSON
+
+| Property | Type   | Description            |
+| -------- | ------ | ---------------------- |
+| id       | string | The pet's ID           |
+| name     | string | The pet's name         |
+| species  | string | The pet's species      |
+| age      | number | The pet's age in years |
+| userId   | string | The user's ID          |
+
+Example:
+
+```json
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Fluffy",
+      "species": "Cat",
+      "age": 3,
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Buddy",
+      "species": "Dog",
+      "age": 5,
+      "userId": "1"
+    }
+  ]
 }
 ```
