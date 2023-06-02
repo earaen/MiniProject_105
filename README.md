@@ -35,5 +35,5 @@ CarePaw is a website designed to help pet owners keep track of their pets' infor
    - Users can add multiple pet cards to their collection.
 
 4. Profile Management:
-   - Users can update their profile information, including their name, email, and profile picture.
+   - Users can update their profile information, including their name, email.
    - The profile section provides options to edit and save changes.
