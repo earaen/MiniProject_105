@@ -33,6 +33,15 @@ CarePaw is a website designed to help pet owners keep track of their pets' infor
 
 To run the frontend of the CarePaw website, follow these steps:
 
-1. Navigate to the frontend directory of the CarePaw project: cd carepaw/frontend
-2. Install the required dependencies: npm install
-3. Start the frontend development server: npm run dev
+1. Navigate to the frontend directory of the CarePaw project: 
+```
+cd carepaw/frontend
+```
+2. Install the required dependencies: 
+```
+npm install
+```
+3. Start the frontend development server: 
+```
+npm run dev
+```
