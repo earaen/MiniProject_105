@@ -113,7 +113,8 @@ npm run dev
 
 ### Signup
 
-URL: POST /signup
+- Method: POST
+- URL: `/signup`
 
 #### Request Body
 
@@ -136,12 +137,22 @@ Example:
 #### Response
 
 Success
-Status Code: 200
-Content Type: JSON
 
-If the signup is successful, the response will contain a JSON object with the following properties:
+- Status Code: 200
+- Content Type: JSON
+
+The response
 | Parameter | Type | Description |
 | --------- | ------ | ------------------------ |
 | token | string | The JWT token for the authenticated user |
 | message | string | A success message indicating the signup was successful
- |
+|
+Example:
+
+```
+{
+ "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...",
+ "message": "Login successful"
+}
+s
+```
