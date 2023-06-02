@@ -282,7 +282,7 @@ Success
 | username | string | The updated username      |
 | email    | string | The updated email address |
 
-```JSON
+```json
 {
   "id": "1",
   "username": "newusername",
