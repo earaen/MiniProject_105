@@ -35,7 +35,7 @@ function ProfileCard() {
     localStorage.removeItem("token");
 
     // Redirect to "/login" page
-    window.location.href = "/";
+    window.location.href = "/login";
   };
 
   const handleUpdateUser = async () => {
