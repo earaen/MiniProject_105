@@ -2,7 +2,6 @@
 
 Welcome to CarePaw, the ultimate platform for collecting and managing your pet cards and learning essential tips for responsible pet ownership. This readme file will guide you through the setup and usage of the CarePaw website.
 
-## Table of Contents
 
 ## Table of Contents
 
