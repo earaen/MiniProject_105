@@ -472,3 +472,41 @@ Example:
   "message": "Pet updated successfully"
 }
 ```
+
+### Delete Pet Endpoint
+
+The Delete Pet endpoint is used to delete a pet by its ID for a logged-in user.
+
+- Method: DELETE
+- URL: `/mypet/:petId`
+
+#### Path Parameters
+
+The endpoint expects the following path parameter:
+
+| Parameter | Type   | Description                      |
+| --------- | ------ | -------------------------------- |
+| petId     | string | The unique identifier of the pet |
+
+#### Query Parameters
+
+The endpoint expects the following query parameter:
+
+| Parameter | Type   | Description                       |
+| --------- | ------ | --------------------------------- |
+| userId    | string | The unique identifier of the user |
+
+#### Response
+
+Success
+
+- Status Code: 200
+- Content Type: JSON
+
+Example:
+
+```json
+{
+  "message": "Pet deleted successfully"
+}
+```
